@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-19T04:45:40Z" name="Default suite" finished-at="2021-05-19T04:45:52Z" duration-ms="12362">
+    <groups>
+    </groups>
+    <test started-at="2021-05-19T04:45:40Z" name="Default test" finished-at="2021-05-19T04:45:52Z" duration-ms="12362">
+      <class name="RestAssured.login">
+        <test-method is-config="true" signature="URL_Init()[pri:0, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:40Z" name="URL_Init" finished-at="2021-05-18T21:45:40Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL_Init -->
+        <test-method signature="login_API()[pri:0, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:40Z" name="login_API" finished-at="2021-05-18T21:45:42Z" duration-ms="2851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_API -->
+        <test-method is-config="true" signature="URL_Init()[pri:0, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:42Z" name="URL_Init" finished-at="2021-05-18T21:45:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL_Init -->
+        <test-method signature="updateData()[pri:1, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:42Z" name="updateData" finished-at="2021-05-18T21:45:43Z" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateData -->
+        <test-method signature="getData_API()[pri:2, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:43Z" name="getData_API" finished-at="2021-05-18T21:45:50Z" duration-ms="7326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData_API -->
+        <test-method is-config="true" signature="URL_Init()[pri:0, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:43Z" name="URL_Init" finished-at="2021-05-18T21:45:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL_Init -->
+        <test-method is-config="true" signature="URL_Init()[pri:0, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:50Z" name="URL_Init" finished-at="2021-05-18T21:45:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL_Init -->
+        <test-method signature="deleteAPI()[pri:9, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:50Z" name="deleteAPI" finished-at="2021-05-18T21:45:52Z" duration-ms="1748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAPI -->
+      </class> <!-- RestAssured.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
