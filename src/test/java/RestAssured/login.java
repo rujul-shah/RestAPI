@@ -34,6 +34,7 @@ public class login {
 		sURL = sHostname+sURI_Login;
 		RestAssured.baseURI=sURL;
 		System.out.println(RestAssured.baseURI);
+		
 		Response response = RestAssured.given().contentType("application/json").body("{\"username\": \"rujuls@hotmail.com\", \"password\": \"rujul123\"}").post();
 	//	System.out.println(ras.asString());
 		response.prettyPrint();

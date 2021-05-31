@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test(failed)">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssured.login">
+      <class name="testCases.userAddition">
         <methods>
-          <include name="getData_API"/>
-          <include name="URL_Init"/>
+          <include name="testCase10"/>
+          <include name="testCase8"/>
+          <include name="testCase7"/>
+          <include name="createReport"/>
+          <include name="initReport"/>
+          <include name="flushReport"/>
+          <include name="testCase6"/>
         </methods>
-      </class> <!-- RestAssured.login -->
+      </class> <!-- testCases.userAddition -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

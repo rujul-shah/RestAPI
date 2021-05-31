@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAPI">
+	<test name="UserData">
+		
+		<classes>
+		<class name="testCases.loginCases"></class>
+		<class name="testCases.userAddition"></class>
+		<class name="testCases.userUpdation"></class>	
+		</classes>
+	</test>
+</suite>

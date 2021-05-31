@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAPI]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UserData(failed)">
+    <classes>
+      <class name="testCases.loginCases">
+        <methods>
+          <include name="createReport"/>
+          <include name="initReport"/>
+          <include name="flushReport"/>
+          <include name="TestCase01"/>
+        </methods>
+      </class> <!-- testCases.loginCases -->
+    </classes>
+  </test> <!-- UserData(failed) -->
+</suite> <!-- Failed suite [RestAPI] -->

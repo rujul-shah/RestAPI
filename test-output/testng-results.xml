@@ -1,45 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-19T04:45:40Z" name="Default suite" finished-at="2021-05-19T04:45:52Z" duration-ms="12362">
+  <suite started-at="2021-05-27T23:23:59 PDT" name="RestAPI" finished-at="2021-05-27T23:24:06 PDT" duration-ms="7011">
     <groups>
     </groups>
-    <test started-at="2021-05-19T04:45:40Z" name="Default test" finished-at="2021-05-19T04:45:52Z" duration-ms="12362">
-      <class name="RestAssured.login">
-        <test-method is-config="true" signature="URL_Init()[pri:0, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:40Z" name="URL_Init" finished-at="2021-05-18T21:45:40Z" duration-ms="4" status="PASS">
+    <test started-at="2021-05-27T23:23:59 PDT" name="UserData" finished-at="2021-05-27T23:24:06 PDT" duration-ms="7011">
+      <class name="testCases.loginCases">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:testCases.loginCases@4d5b6aac]" started-at="2021-05-27T23:23:59 PDT" name="initReport" finished-at="2021-05-27T23:24:00 PDT" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- URL_Init -->
-        <test-method signature="login_API()[pri:0, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:40Z" name="login_API" finished-at="2021-05-18T21:45:42Z" duration-ms="2851" status="PASS">
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="createReport(java.lang.reflect.Method)[pri:0, instance:testCases.loginCases@4d5b6aac]" started-at="2021-05-27T23:24:00 PDT" name="createReport" finished-at="2021-05-27T23:24:00 PDT" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.loginCases.TestCase03() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_API -->
-        <test-method is-config="true" signature="URL_Init()[pri:0, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:42Z" name="URL_Init" finished-at="2021-05-18T21:45:42Z" duration-ms="1" status="PASS">
+        </test-method> <!-- createReport -->
+        <test-method signature="TestCase03()[pri:3, instance:testCases.loginCases@4d5b6aac]" started-at="2021-05-27T23:24:00 PDT" name="TestCase03" finished-at="2021-05-27T23:24:06 PDT" duration-ms="5960" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- URL_Init -->
-        <test-method signature="updateData()[pri:1, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:42Z" name="updateData" finished-at="2021-05-18T21:45:43Z" duration-ms="388" status="PASS">
+        </test-method> <!-- TestCase03 -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:testCases.loginCases@4d5b6aac]" started-at="2021-05-27T23:24:06 PDT" name="flushReport" finished-at="2021-05-27T23:24:06 PDT" duration-ms="552" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateData -->
-        <test-method signature="getData_API()[pri:2, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:43Z" name="getData_API" finished-at="2021-05-18T21:45:50Z" duration-ms="7326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getData_API -->
-        <test-method is-config="true" signature="URL_Init()[pri:0, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:43Z" name="URL_Init" finished-at="2021-05-18T21:45:43Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- URL_Init -->
-        <test-method is-config="true" signature="URL_Init()[pri:0, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:50Z" name="URL_Init" finished-at="2021-05-18T21:45:50Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- URL_Init -->
-        <test-method signature="deleteAPI()[pri:9, instance:RestAssured.login@5a37d3ed]" started-at="2021-05-18T21:45:50Z" name="deleteAPI" finished-at="2021-05-18T21:45:52Z" duration-ms="1748" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteAPI -->
-      </class> <!-- RestAssured.login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- flushReport -->
+      </class> <!-- testCases.loginCases -->
+    </test> <!-- UserData -->
+  </suite> <!-- RestAPI -->
 </testng-results>
